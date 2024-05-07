@@ -1,0 +1,131 @@
+.productImageIcon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-base);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.naturalTeethWhitening {
+  position: relative;
+  line-height: 21px;
+  font-weight: 500;
+}
+.div,
+.div1 {
+  position: relative;
+  display: inline-block;
+  white-space: nowrap;
+}
+.div {
+  line-height: 30px;
+  font-weight: 600;
+  min-width: 47px;
+}
+.div1 {
+  font-size: var(--paragraph-1medium-size);
+  line-height: 24px;
+  color: var(--custom-02-text-disabled);
+  min-width: 36px;
+}
+.details,
+.price {
+  display: flex;
+  justify-content: flex-start;
+}
+.price {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-5xs);
+  font-size: var(--subtitle-semi-bold-size);
+  color: var(--color-black);
+}
+.details {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-base);
+}
+.shoppingCartIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.addToCart {
+  position: relative;
+  font-size: var(--paragraph-1medium-size);
+  line-height: 24px;
+  font-weight: 600;
+  font-family: var(--paragraph-2regular);
+  color: var(--text-light-1);
+  text-align: left;
+  display: inline-block;
+  min-width: 93px;
+}
+.arrowForwardIcon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.iconContainer {
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs);
+}
+.buttons {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) var(--padding-42xl);
+  background-color: var(--de-primary);
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.container,
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.container {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-5xl);
+}
+.product {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-base);
+  background-color: var(--text-light-1);
+  border: 1px solid var(--custom-02-divider-light);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  padding: var(--padding-base) var(--padding-mini);
+  gap: var(--gap-base);
+  min-width: 214px;
+  text-align: left;
+  font-size: var(--body-semibold-size);
+  color: var(--content-primary);
+  font-family: var(--paragraph-2regular);
+}
+@media screen and (max-width: 450px) {
+  .div {
+    font-size: var(--paragraph-1medium-size);
+    line-height: 24px;
+  }
+}

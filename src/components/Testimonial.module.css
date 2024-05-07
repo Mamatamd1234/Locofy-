@@ -1,0 +1,90 @@
+.quiteDifferentYou,
+.teaTree {
+  margin: 0;
+}
+.quiteDifferentYouContainer {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+}
+.customerImageIcon {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  border-radius: var(--br-9xs);
+  object-fit: cover;
+  min-height: 50px;
+}
+.costomer,
+.nigelNigel {
+  position: relative;
+  display: inline-block;
+}
+.nigelNigel {
+  line-height: 24px;
+  font-weight: 500;
+  min-width: 126px;
+}
+.costomer {
+  font-size: var(--body-semibold-size);
+  line-height: 21px;
+  color: var(--content-tertiary);
+  min-width: 70px;
+}
+.details,
+.details1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.details {
+  flex-direction: row;
+  align-items: center;
+  padding: 0 var(--padding-40xl-3) 0 0;
+  gap: var(--gap-lgi);
+}
+.iconChild,
+.iconItem {
+  align-self: stretch;
+  width: 19px;
+  position: relative;
+  border-radius: var(--br-12xs);
+  max-height: 100%;
+  min-height: 39px;
+}
+.customer,
+.icon,
+.testimonial {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.icon {
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+  opacity: 0.6;
+}
+.customer,
+.testimonial {
+  align-items: center;
+  gap: var(--gap-18xl);
+}
+.testimonial {
+  width: 385.3px;
+  box-shadow: var(--elevation-model-3);
+  border-radius: var(--br-5xs);
+  background-color: var(--text-light-1);
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-5xl) var(--padding-4xl-3) var(--padding-5xl)
+    var(--padding-5xl);
+  box-sizing: border-box;
+  gap: var(--gap-21xl);
+  text-align: left;
+  font-size: var(--paragraph-1medium-size);
+  color: var(--content-primary);
+  font-family: var(--paragraph-2regular);
+}

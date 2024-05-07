@@ -1,0 +1,452 @@
+.screenshot20240411At216 {
+  width: 227px;
+  height: 74px;
+  position: relative;
+  object-fit: contain;
+}
+.ecoDentalIs {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.ecoDentalIsYourGoToDestiWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-3xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangle {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 21.83px;
+  background-color: var(--color-gray-200);
+  border: 1.1px solid var(--dark);
+  box-sizing: border-box;
+}
+.shapeIcon {
+  position: absolute;
+  height: 38.44%;
+  width: 17.85%;
+  top: 30.66%;
+  right: 41.19%;
+  bottom: 30.89%;
+  left: 40.96%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.facebookIcon,
+.linkedinIcon {
+  height: 43.7px;
+  width: 43.7px;
+  position: relative;
+}
+.linkedinIcon {
+  min-height: 44px;
+}
+.rectangle1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 21.83px;
+  background-color: var(--color-gray-200);
+  border: 1.1px solid var(--dark);
+  box-sizing: border-box;
+}
+.instagramLogoIcon {
+  position: absolute;
+  top: 12.3px;
+  left: 13.4px;
+  width: 17.9px;
+  height: 20.2px;
+  overflow: hidden;
+  z-index: 1;
+}
+.twitterIcon {
+  height: 43.7px;
+  width: 43.7px;
+  position: relative;
+}
+.rectangle2 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 21.83px;
+  background-color: var(--color-gray-200);
+  border: 1.1px solid var(--dark);
+  box-sizing: border-box;
+}
+.twitterIcon2 {
+  position: absolute;
+  height: 28.15%;
+  width: 33.41%;
+  top: 35.7%;
+  right: 33.18%;
+  bottom: 36.16%;
+  left: 33.41%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.twitterIcon1,
+.twitterIcon3 {
+  height: 43.7px;
+  width: 43.7px;
+  position: relative;
+}
+.twitterIcon3 {
+  min-height: 44px;
+}
+.facebookIconParent {
+  gap: var(--gap-base-6);
+}
+.facebookIconParent,
+.screenshot20240411At216Parent,
+.social {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.screenshot20240411At216Parent {
+  width: 490px;
+  flex-direction: column;
+  gap: var(--gap-base);
+  max-width: 100%;
+  font-size: var(--paragraph-1medium-size);
+  color: var(--color-gray-300);
+}
+.quickLinks,
+.quickLinks1 {
+  position: relative;
+  display: inline-block;
+}
+.quickLinks {
+  min-width: 105px;
+}
+.quickLinks1 {
+  height: 24px;
+  flex: 1;
+  font-weight: 500;
+  opacity: 0.8;
+}
+.quickLinksWrapper {
+  width: 105px;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+  color: var(--custom-02-text-primary);
+}
+.ourStory {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 75px;
+}
+.ourStoryWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs);
+}
+.contactUs {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 90px;
+}
+.contactUsWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs);
+}
+.shippingDelivery {
+  position: relative;
+  font-weight: 500;
+}
+.shippingDeliveryWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs);
+}
+.frameGroup,
+.quickLinksParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameGroup {
+  font-size: var(--paragraph-1medium-size);
+  color: var(--color-gray-300);
+}
+.quickLinksParent {
+  gap: var(--gap-5xl);
+}
+.receiveOffers {
+  position: relative;
+}
+.emailIcon,
+.enterEmail {
+  height: 24px;
+  position: relative;
+}
+.emailIcon {
+  width: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.enterEmail {
+  width: calc(100% - 24px);
+  border: 0;
+  outline: 0;
+  font-family: var(--paragraph-2regular);
+  font-size: var(--paragraph-1medium-size);
+  background-color: transparent;
+  flex: 1;
+  color: var(--custom-02-text-disabled);
+  text-align: left;
+  display: inline-block;
+  min-width: 109px;
+  padding: 0;
+}
+.emailParent,
+.frameWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.emailParent {
+  gap: var(--gap-5xs);
+}
+.frameWrapper {
+  border-radius: var(--br-5xs) 0 0 var(--br-5xs);
+  border: 1px solid var(--custom-02-divider-light);
+  padding: var(--padding-sm) var(--padding-mini);
+}
+.shoppingCartIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.button1 {
+  position: relative;
+  font-size: var(--body-semibold-size);
+  line-height: 24px;
+  font-weight: 600;
+  font-family: var(--body-semibold);
+  color: var(--text-light-1);
+  text-align: left;
+  display: inline-block;
+  min-width: 69px;
+}
+.arrowForwardIcon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.iconContainer {
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs);
+}
+.button {
+  border-radius: 0 var(--br-5xs) var(--br-5xs) 0;
+  background-color: var(--de-primary);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-base);
+  gap: var(--gap-5xs);
+}
+.buttonVariants {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  flex-direction: row;
+}
+.buttonVariants,
+.frameContainer,
+.receiveOffersDiscountsViaParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameContainer {
+  align-self: stretch;
+  flex-direction: row;
+  row-gap: 20px;
+}
+.receiveOffersDiscountsViaParent {
+  width: 347px;
+  flex-direction: column;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+}
+.frameChild,
+.frameParent {
+  align-self: stretch;
+  box-sizing: border-box;
+}
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 var(--padding-107xl) 0 var(--padding-105xl);
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.frameChild {
+  margin-left: -2px;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--custom-02-divider-light);
+}
+.ecoDental {
+  width: 362px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.privacyPolicy,
+.refundPolicy,
+.termsConditions {
+  position: relative;
+  font-weight: 500;
+}
+.privacyPolicy,
+.refundPolicy {
+  display: inline-block;
+  min-width: 97px;
+}
+.refundPolicy {
+  min-width: 95px;
+}
+.termsConditionsParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+}
+.ecoDentalAllRightsReservParent,
+.footer,
+.lineParent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.ecoDentalAllRightsReservParent {
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 var(--padding-105xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+}
+.footer,
+.lineParent {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+  font-size: var(--body-semibold-size);
+  color: var(--color-gray-400);
+}
+.footer {
+  background-color: var(--color-whitesmoke);
+  padding: var(--padding-21xl) 0 var(--padding-5xl-1);
+  box-sizing: border-box;
+  gap: var(--gap-57xl-9);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--custom-02-text-primary);
+  font-family: var(--paragraph-2regular);
+}
+@media screen and (max-width: 1300px) {
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .ecoDentalAllRightsReservParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .frameParent {
+    padding-left: var(--padding-43xl);
+    padding-right: var(--padding-44xl);
+    box-sizing: border-box;
+  }
+  .termsConditionsParent {
+    flex-wrap: wrap;
+  }
+  .ecoDentalAllRightsReservParent {
+    padding-left: var(--padding-43xl);
+    padding-right: var(--padding-43xl);
+    box-sizing: border-box;
+  }
+  .footer {
+    gap: var(--gap-19xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .frameContainer {
+    flex-wrap: wrap;
+  }
+  .ecoDentalAllRightsReservParent,
+  .frameParent {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .footer {
+    gap: var(--gap-lgi);
+    padding-top: var(--padding-7xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

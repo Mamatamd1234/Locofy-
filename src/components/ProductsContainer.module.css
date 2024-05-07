@@ -1,0 +1,293 @@
+.topPicksFor,
+.trendingProducts {
+  align-self: stretch;
+  position: relative;
+}
+.trendingProducts {
+  margin: 0;
+  font-size: inherit;
+  line-height: 66px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.topPicksFor {
+  font-size: var(--paragraph-1medium-size);
+  line-height: 24px;
+  color: var(--color-darkslategray-100);
+}
+.productsContainerInner,
+.trendingProductsParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.trendingProductsParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-9xs);
+}
+.productsContainerInner {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-35xl);
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.arrowBackIosIcon,
+.arrowForwardIosIcon {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 32px;
+}
+.divslideshowControls {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  z-index: 2;
+}
+.divslideshowControlsWrapper {
+  width: 1296px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-140xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.mLamaMLamaMLam {
+  position: absolute;
+  top: 16px;
+  left: 189px;
+  background-color: var(--text-light-1);
+  width: 64px;
+  height: 33px;
+  z-index: 1;
+}
+.productParent {
+  height: 424px;
+  width: 279px;
+  position: relative;
+  flex-shrink: 0;
+}
+.productImageIcon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-base);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.naturalTeethWhitening,
+.toothpasteTea {
+  margin: 0;
+}
+.naturalTeethWhiteningContainer {
+  position: relative;
+  line-height: 21px;
+  font-weight: 500;
+}
+.div,
+.div1 {
+  position: relative;
+  display: inline-block;
+  white-space: nowrap;
+}
+.div {
+  line-height: 30px;
+  font-weight: 600;
+  min-width: 47px;
+}
+.div1 {
+  font-size: var(--paragraph-1medium-size);
+  line-height: 24px;
+  color: var(--custom-02-text-disabled);
+  min-width: 36px;
+}
+.details,
+.price {
+  display: flex;
+  justify-content: flex-start;
+}
+.price {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-5xs);
+  font-size: var(--subtitle-semi-bold-size);
+  color: var(--color-black);
+}
+.details {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-base);
+}
+.shoppingCartIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.addToCart {
+  position: relative;
+  font-size: var(--paragraph-1medium-size);
+  line-height: 24px;
+  font-weight: 600;
+  font-family: var(--paragraph-2regular);
+  color: var(--text-light-1);
+  text-align: left;
+  display: inline-block;
+  min-width: 93px;
+}
+.arrowForwardIcon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.iconContainer {
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs);
+}
+.buttons {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) var(--padding-42xl);
+  background-color: var(--de-primary);
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.contractBalanceTvlWalletMy,
+.product {
+  position: absolute;
+  background-color: var(--text-light-1);
+}
+.product {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-base);
+  border: 1px solid var(--custom-02-divider-light);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-base) var(--padding-mini);
+  gap: var(--gap-base);
+  min-width: 214px;
+}
+.contractBalanceTvlWalletMy {
+  top: 19px;
+  left: 194px;
+  width: 64px;
+  height: 33px;
+  z-index: 1;
+}
+.productGroup {
+  height: 424px;
+  width: 279px;
+  position: relative;
+  flex-shrink: 0;
+}
+.frameParent,
+.products,
+.productsContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.products {
+  height: 424px;
+  width: 1188px;
+  overflow-x: auto;
+  flex-shrink: 0;
+  flex-direction: row;
+  gap: var(--gap-5xl);
+  min-width: 600px;
+  margin-left: -1242px;
+}
+.frameParent,
+.productsContainer {
+  align-self: stretch;
+}
+.frameParent {
+  flex-direction: row;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--body-semibold-size);
+  color: var(--content-primary);
+}
+.productsContainer {
+  flex-direction: column;
+  padding: 0 var(--padding-51xl);
+  box-sizing: border-box;
+  gap: var(--gap-61xl);
+  min-width: 600px;
+  text-align: center;
+  font-size: var(--heading-2-size);
+  color: var(--custom-02-text-primary);
+  font-family: var(--paragraph-2regular);
+}
+@media screen and (max-width: 1300px) {
+  .productsContainerInner {
+    padding-left: var(--padding-8xl);
+    padding-right: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .trendingProducts {
+    font-size: var(--font-size-16xl);
+    line-height: 53px;
+  }
+  .productsContainer {
+    gap: var(--gap-21xl);
+    padding-left: var(--padding-16xl);
+    padding-right: var(--padding-16xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .trendingProducts {
+    font-size: var(--font-size-7xl);
+    line-height: 40px;
+  }
+  .divslideshowControls {
+    flex-wrap: wrap;
+  }
+  .div {
+    font-size: var(--paragraph-1medium-size);
+    line-height: 24px;
+  }
+  .productsContainer {
+    gap: var(--gap-xl);
+  }
+}
